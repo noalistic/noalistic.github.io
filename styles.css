@@ -9,11 +9,6 @@ body {
     line-height: 2rem;
 }
 
-.logo-image {
-    width: 100%;
-    background-size: contain;
-}
-
 .p-margin {
     margin: 0 0 0 -15px;
 }
@@ -95,14 +90,9 @@ hr.dropdown-divider:before { /* Not really supposed to work, but does */
     box-shadow: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
     .d-flex {
         justify-content: center !important;
     }
 
-    .emart-con {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 4rem;
-    }
   }
